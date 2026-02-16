@@ -229,11 +229,6 @@ npm run watch
 # Run in development mode
 npm run dev
 
-# Build for production
-npm run build
-
-# Clean build directory
-npm run clean
 ```
 
 ## Testing with Game
