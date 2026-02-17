@@ -273,9 +273,5 @@ This demo can be extended to:
 - Create a mobile app interface
 - Implement data logging and replay
 - Add virtual instruments (speed, compass, etc.)
-- Create autopilot algorithms
 
-## License
-
-MIT
 
