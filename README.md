@@ -1,6 +1,6 @@
 # Dock Your Boat - Remote Control Demo (TypeScript)
 
-Dock your boat is a boat simulation game developed in in Unity3D for Windows, Mac, iOs and Android.
+Dock your boat is a boat simulation game developed with Unity3D for Windows, Mac, iOs and Android by Klaus P Kobald Gmbh, Austria.
 
 https://dock-your-boat.kobald.com/
 
