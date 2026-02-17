@@ -141,10 +141,6 @@ client.on('connected', () => {
 client.connect();
 ```
 
-**Important**: You must send a subscription message immediately after connecting, otherwise the game will not respond to your commands. The format is:
-- `"active:userId"` - if you have an active subscription
-- `":userId"` - if you don't have a subscription
-
 ### Sending Controls
 
 ```typescript
