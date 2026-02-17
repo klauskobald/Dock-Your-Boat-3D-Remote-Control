@@ -26,17 +26,13 @@ const client = new DYBClient({
 
 // Event handlers
 client.on('connected', () => {
-  console.log('✓ Connected to game server!\n');
-  
-  // Send subscription message with user ID
-  console.log('📤 Sending subscription message...');
-  client.sendSubscriptionMessage(USER_ID, true);
-  
-  // Start test sequence after 2 seconds
-  setTimeout(() => {
-    console.log('✓ Subscription sent! Starting test sequence...\n');
-    runTestSequence();
-  }, 2000);
+    console.log('✓ Connected to game server!\n');
+
+    // Start test sequence after 2 seconds
+    setTimeout(() => {
+        console.log('✓ Subscription sent! Starting test sequence...\n');
+        runTestSequence();
+    }, 2000);
 });
 
 client.on('disconnected', () => {

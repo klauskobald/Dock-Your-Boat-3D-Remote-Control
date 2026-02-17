@@ -135,10 +135,7 @@ const client = new DYBClient({
 });
 
 client.on('connected', () => {
-  console.log('Connected!');
-  
-  // IMPORTANT: Send subscription message first!
-  client.sendSubscriptionMessage(USER_ID, true);
+  console.log('Connected!');  
 });
 
 client.connect();

@@ -111,11 +111,7 @@ const client = new DYBClient({
 
 client.on('connected', () => {
   console.log('Connected!');
-  
-  // IMPORTANT: Send subscription message first!
-  // Format: "active:userId" for active subscription, or ":userId" for no subscription
-  client.sendSubscriptionMessage(USER_ID, true);
-  
+    
   // Then send controls
   client.sendRudder(0.5);
   client.sendThrottle(0.75);
