@@ -282,13 +282,6 @@ This demo can be extended to:
 - Add virtual instruments (speed, compass, etc.)
 - Create autopilot algorithms
 
-## Protocol Documentation
-
-See the main documentation files:
-- `../documentation/remotecontrol.md` - Protocol specification
-- `../documentation/remotecontrol-arduino.md` - Arduino implementation
-- `../documentation/remotecontrol-raspberrypi.md` - Raspberry Pi implementation
-
 ## License
 
 MIT
